@@ -15,6 +15,10 @@
 					"name": "source1"
 				},
 				{
+					"dataset": {
+						"referenceName": "bronze_demanda_paradas_xls",
+						"type": "DatasetReference"
+					},
 					"name": "source2"
 				},
 				{
@@ -73,7 +77,8 @@
 				"          metodo as string",
 				"     ),",
 				"     allowSchemaDrift: true,",
-				"     validateSchema: false) ~> source2",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> source2",
 				"source(output(",
 				"          AnioFuente as string,",
 				"          DemandaId as string,",

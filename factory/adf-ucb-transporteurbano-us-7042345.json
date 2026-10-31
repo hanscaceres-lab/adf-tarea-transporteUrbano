@@ -1,0 +1,10 @@
+{
+	"name": "adf-ucb-transporteurbano-us-7042345",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralus"
+}
